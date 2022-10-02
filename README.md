@@ -48,7 +48,7 @@ Implementation of FIFG allows to start from a baseline solution (4.4 M) and achi
 
    
  
-## Figure 1: Submission of the best solution , the score of the late submission is `4582374` which is by far exeeds the winning score `4531386`
+### Figure 1: Submission of the best solution , the score of the late submission is 4582374 which is by far exeeds the winning score 4531386
 
 ![This is an image](figures/leaderbord.png)
 
