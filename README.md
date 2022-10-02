@@ -20,7 +20,7 @@ This problem is a combinatorial optimization problem. Top solutions at the compe
 The baseline solution was proposed by winning teams at the qualification round of HashCode 2021 and implements a very simple optimization principle which we refer further as First In First Green (FIFG) optimization. In this case traffic lights are scheduled in line with the first car coming to the junction. This principle allows us to get a solution with a score ~4 410 000 (4.4 M) on the scale of 0.2 seconds for the  Kaggle extended problem.
 
 ##  Winning solution of Kaggle extended round
-According to the winner post: it  starts from a random 4.0M solution and iteratively swapped 2 random roads on a random intersection and kept the swap if the score is non-decreasing. It was implemented in a c++ script with a focus on performance, yielding a speed of around 600 swap evaluations per minute (single core,) or 10 swaps per second. <a href="https://www.kaggle.com/competitions/hashcode-2021-oqr-extension/discussion/243953" target="_blank">The final score was achieved  after running the script for about 150h</a>.
+<a href="https://www.kaggle.com/competitions/hashcode-2021-oqr-extension/discussion/243953" target="_blank">According to the winner post:</a> it  starts from a random 4.0M solution and iteratively swapped 2 random roads on a random intersection and kept the swap if the score is non-decreasing. It was implemented in a c++ script with a focus on performance, yielding a speed of around 600 swap evaluations per minute (single core,) or 10 swaps per second. The final score was achieved  after running the script for about 150h.
 
 
 
