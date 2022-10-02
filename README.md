@@ -37,21 +37,18 @@ Implementation of FIFG allows to start from a baseline solution (4.4 M) and achi
 |  Method                  | Exec Time       | Score         | Surplus    |
 |:------------------------:|:---------------:|:-------------:|:----------:|
 | GPU solver  4gpu         | 48 hours        |   `4582000`     | 172K       | 
-| GPU solver  1gpu         | 48 hours        |   4562000     | 152K       | 
-| GPU solver  1gpu         | 4 hours         |   4532000     | 122K       |
-| 1-best                   | 150 hours       |   4531386     | 121K       |
-| 2-best                   | unknown         |   4508721     | 98K        |
-| 3-best                   | 90 hours        |   4496301     | 86K        |
-| 4-best                   | unknown         |   4477553     | 67K        |
-| 10-best                  | unknown         |   4426251     | 16K        |
-| BaseLine (FIFG)          | 0.1 second      |   4410000     | 0 K        | 
+| GPU solver  1gpu         | 48 hours        |   `4562000`     | 152K       | 
+| GPU solver  1gpu         | 4 hours         |   `4532000`     | 122K       |
+| 1-best                   | 150 hours       |   `4531386`     | 121K       |
+| 2-best                   | unknown         |   `4508721`     | 98K        |
+| 3-best                   | 90 hours        |   `4496301`     | 86K        |
+| 4-best                   | unknown         |   `4477553`     | 67K        |
+| 10-best                  | unknown         |   `4426251`     | 16K        |
+| BaseLine (FIFG)          | 0.1 second      |   `4410000`     | 0 K        | 
 
    
  
-
-<p align = "left">
-Fig.1 - Submission of the best solution , the score of the late submission is 4582374 which is by far exeeds the winning score 4531386. 
-</p>
+## <p align = "left"> Fig.1 - Submission of the best solution , the score of the late submission is `4582374` which is by far exeeds the winning score 4531386. </p>
 
 ![This is an image](figures/leaderbord.png)
 
