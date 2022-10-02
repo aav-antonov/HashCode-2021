@@ -1,4 +1,4 @@
-size_of_threads_GPU  5000
+size_of_threads_GPU  20000
 fixedstreets_current_MAXSIZE 20000
 dir_results results
 initial_rounds 2

@@ -50,7 +50,7 @@ Presented here version of the cuda/c++ code implements 2 strategies  (both FIFG 
 Implementation of FIFG allows to start from a baseline solution (4.4 M) and achieve a winning score in less than 5 hours using 1 gpu. The table 1 below provides benchmark performance.
 
 
-## Tabble 1:  performance benchmark
+## Table 1:  performance benchmark
 
 |  Method                  | Exec Time       | Score         | Surplus    |
 |:------------------------:|:---------------:|:-------------:|:----------:|
