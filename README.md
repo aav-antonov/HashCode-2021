@@ -3,11 +3,21 @@ This code is multi-GPU solver for traffic light scheduling problem offered at Ha
 
 ## <a href="https://www.kaggle.com/competitions/hashcode-2021-oqr-extension" target="_blank">Kaggle extended version</a> of the Hash Code Online Qualifications 2021 problem. 
 
-I was third in this 
-<a href="https://www.kaggle.com/competitions/hashcode-2021-oqr-extension/leaderboard" target="_blank">competition</a>.
- 
+I was third in this <a href="https://www.kaggle.com/competitions/hashcode-2021-oqr-extension/leaderboard" target="_blank">competition</a>. However, this code is an improved multi-GPU version of my solver and it will by far surpass the winning solution.
 
-However, this code is an improved multi-GPU version of my solver and it will by far surpass the winning solution.
+## Compilation an usage
+Clone this repo, cd to the repo folder and compile the code by running in the command line:
+
+>make
+
+To run the solver on 1 gpu:
+>./solver input/hashcode.in 1
+
+To run the solver on multi-gpu:
+>./solver input/hashcode.in 4
+
+where 4 stands fot the number of gpu to be used (!attention: [0,1,2,3] gpus would be used)
+
 
 ## Problem overview
 Given the description of a city plan and planned paths for all cars in that city,
