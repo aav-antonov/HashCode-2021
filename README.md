@@ -1,12 +1,13 @@
 ## Overview
-This code is multi-GPU solver for traffic light scheduling problem offered at HashCode 2021  competition. 
+This code is multi-GPU solver for traffic light scheduling problem offered at HashCode 2021 competition. 
 
-## Kaggle extended version of the Hash Code Online Qualifications 2021 problem. https://www.kaggle.com/competitions/hashcode-2021-oqr-extension
+## <a href="https://www.kaggle.com/competitions/hashcode-2021-oqr-extension" target="_blank">Kaggle extended version</a> of the Hash Code Online Qualifications 2021 problem. 
+
 I was third in this 
 <a href="https://www.kaggle.com/competitions/hashcode-2021-oqr-extension/leaderboard" target="_blank">competition</a>.
  
 
-However, this code is an improved multi-GPU version of my solver and it will by far surpass the winning solution.   
+However, this code is an improved multi-GPU version of my solver and it will by far surpass the winning solution.
 
 ## Problem overview
 Given the description of a city plan and planned paths for all cars in that city,
@@ -39,7 +40,7 @@ Implementation of FIFG allows to start from a baseline solution (4.4 M) and achi
 | 4-best                   | unknown         |   4477553     | 67K        |
 | 10-best                  | unknown         |   4426251     | 16K        |
 | BaseLine (FIFG)          | 0.1 second      | ~ 4410000     | 0 K        | 
-| -------------------------|--- ------------ | —------------ | ---------- |    
+| -------------------------|--- ------------ | —------------ | ---------- |
 
 
    
