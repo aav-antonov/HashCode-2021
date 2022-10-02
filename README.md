@@ -26,9 +26,17 @@ The baseline solution was proposed by winning teams at the qualification round o
 
 
 ##  multi-GPU solver
-Presented here version of the cuda/c++ code implements 2 strategies  (both FIFG and hill climbing) which increases both speed and efficiency. One 1 modern GPU it achieved speed for evaluation of ~ 5 000 swaps in a second (so 500 times acceleration in comparison to the winning solution). 
+Presented here version of the cuda/c++ code implements 2 strategies  (both FIFG and hill climbing) which increases both speed and efficiency. On modern GPU it achieved speed for evaluation of ~ 5 000 swaps in a second (so 500 times acceleration in comparison to the winning solution). 
 
-Implementation of FIFG allows to start from a baseline solution (4.4 M) and achieve a winning score in less than 5 hours on a 1 gpu. The table below provides benchmark performance.
+Implementation of FIFG allows to start from a baseline solution (4.4 M) and achieve a winning score in less than 5 hours using 1 gpu. The table below provides benchmark performance.
+
+
+| Left-Aligned  | Center Aligned  | Right Aligned |
+| :------------ |:---------------:| -----:|
+| col 3 is      | some wordy text | $1600 |
+| col 2 is      | centered        |   $12 |
+| zebra stripes | are neat        |    $1 |
+
 
 | -------------------------|--- ------------ | —------------ | ---------- |
 |  method                  | Exec Time       | Score         | Surplus    |
