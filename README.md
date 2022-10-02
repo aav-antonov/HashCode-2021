@@ -18,6 +18,13 @@ To run the solver on multi-gpu:
 
 where 4 stands fot the number of gpu to be used (!attention: [0,1,2,3] gpus would be used)
 
+Attention: if your GPU is old then you need to edit config_solver file:
+
+size_of_threads_GPU  20000 (reduce this to 1000-4000 if you running out of cuda memory, it specifies the number of tested mutations per GPU in 1 round)
+fixedstreets_current_MAXSIZE 10000 (also reduce this to 5000)
+
+
+
 
 ## Problem overview
 Given the description of a city plan and planned paths for all cars in that city,
@@ -37,9 +44,7 @@ The baseline solution was proposed by winning teams at the qualification round o
 
 ##  multi-GPU solver
 Presented here version of the cuda/c++ code implements 2 strategies  (both FIFG and hill climbing) which increases both speed and efficiency. On modern GPU it achieved speed for evaluation of ~ 5 000 swaps in a second (so 500 times acceleration in comparison to the winning solution). 
-
 Implementation of FIFG allows to start from a baseline solution (4.4 M) and achieve a winning score in less than 5 hours using 1 gpu. The table 1 below provides benchmark performance.
-
 
 
 ## Tabble 1:  performance benchmark

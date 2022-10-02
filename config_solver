@@ -1,6 +1,6 @@
-size_of_threads_GPU  20000
-fixedstreets_current_MAXSIZE 50000
-dir_results resultsU
+size_of_threads_GPU  5000
+fixedstreets_current_MAXSIZE 20000
+dir_results results
 initial_rounds 2
 initial_rounds_score_diff_MIN 16
 initial_rounds_count_stagnation_MAX 8
