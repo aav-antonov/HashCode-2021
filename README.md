@@ -28,41 +28,34 @@ The baseline solution was proposed by winning teams at the qualification round o
 ##  multi-GPU solver
 Presented here version of the cuda/c++ code implements 2 strategies  (both FIFG and hill climbing) which increases both speed and efficiency. On modern GPU it achieved speed for evaluation of ~ 5 000 swaps in a second (so 500 times acceleration in comparison to the winning solution). 
 
-Implementation of FIFG allows to start from a baseline solution (4.4 M) and achieve a winning score in less than 5 hours using 1 gpu. The table below provides benchmark performance.
-
-
-| Left-Aligned  | Center Aligned  | Right Aligned |
-| :------------ |:---------------:| -----:|
-| col 3 is      | some wordy text | $1600 |
-| col 2 is      | centered        |   $12 |
-| zebra stripes | are neat        |    $1 |
+Implementation of FIFG allows to start from a baseline solution (4.4 M) and achieve a winning score in less than 5 hours using 1 gpu. The table 1 below provides benchmark performance.
 
 
 
-|  method                  | Exec Time       | Score         | Surplus    |
+## Tabble 1:  performance benchmark
+
+|  Method                  | Exec Time       | Score         | Surplus    |
 |:------------------------:|:---------------:|:-------------:|:----------:|
-| GPU solver  4gpu         | 48 hours        | ~ 4582000     | 172K       | 
-| GPU solver  1gpu         | 48 hours        | ~ 4562000     | 152K       | 
-| GPU solver  1gpu         | 4 hours         | ~ 4532000     | 122K       |
+| GPU solver  4gpu         | 48 hours        |   4582000     | 172K       | 
+| GPU solver  1gpu         | 48 hours        |   4562000     | 152K       | 
+| GPU solver  1gpu         | 4 hours         |   4532000     | 122K       |
 | 1-best                   | 150 hours       |   4531386     | 121K       |
 | 2-best                   | unknown         |   4508721     | 98K        |
 | 3-best                   | 90 hours        |   4496301     | 86K        |
 | 4-best                   | unknown         |   4477553     | 67K        |
 | 10-best                  | unknown         |   4426251     | 16K        |
-| BaseLine (FIFG)          | 0.1 second      | ~ 4410000     | 0 K        | 
-
-
+| BaseLine (FIFG)          | 0.1 second      |   4410000     | 0 K        | 
 
    
  
 
-
-
-![This is an image](figures/leaderbord.png)
-
 <p align = "left">
 Fig.1 - Submission of the best solution , the score of the late submission is 4582374 which is by far exeeds the winning score 4531386. 
 </p>
+
+![This is an image](figures/leaderbord.png)
+
+
 
 
 
