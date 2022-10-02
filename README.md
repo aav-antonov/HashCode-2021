@@ -36,7 +36,7 @@ Implementation of FIFG allows to start from a baseline solution (4.4 M) and achi
 
 |  Method                  | Exec Time       | Score         | Surplus    |
 |:------------------------:|:---------------:|:-------------:|:----------:|
-| GPU solver  4gpu         | 48 hours        |   4582000     | 172K       | 
+| GPU solver  4gpu         | 48 hours        |   `4582000`     | 172K       | 
 | GPU solver  1gpu         | 48 hours        |   4562000     | 152K       | 
 | GPU solver  1gpu         | 4 hours         |   4532000     | 122K       |
 | 1-best                   | 150 hours       |   4531386     | 121K       |
