@@ -6,6 +6,9 @@ This code is multi-GPU solver for traffic light scheduling problem offered at Ha
 I was third in this <a href="https://www.kaggle.com/competitions/hashcode-2021-oqr-extension/leaderboard" target="_blank">competition</a>. However, this code is an improved multi-GPU version of my solver and it will by far surpass the winning solution.
 
 ## Compilation an usage
+
+Installation requirements: cuda ,boost. Obviusly to run GPU solver you need to have GPU device better with memory at least 3 gigs.
+
 Clone this repo, cd to the repo folder and compile the code by running in the command line:
 
 >make
@@ -21,9 +24,9 @@ where 4 stands fot the number of gpu to be used (!attention: [0,1,2,3] gpus woul
 Attention: if your GPU is old then you need to edit config_solver file:
 
 size_of_threads_GPU  20000 (reduce this to 1000-4000 if you running out of cuda memory, it specifies the number of tested mutations per GPU in 1 round)
-fixedstreets_current_MAXSIZE 10000 (also reduce this to 5000)
 
 
+The output is saved to the folder "results" (specified in config_solver file).
 
 
 ## Problem overview
