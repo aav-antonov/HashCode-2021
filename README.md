@@ -38,9 +38,9 @@ Implementation of FIFG allows to start from a baseline solution (4.4 M) and achi
 | zebra stripes | are neat        |    $1 |
 
 
-| -------------------------|--- ------------ | —------------ | ---------- |
+
 |  method                  | Exec Time       | Score         | Surplus    |
-| -------------------------|--- ------------ | —------------ | ---------- |
+|:------------------------:|:---------------:|:-------------:|:----------:|
 | GPU solver  4gpu         | 48 hours        | ~ 4582000     | 172K       | 
 | GPU solver  1gpu         | 48 hours        | ~ 4562000     | 152K       | 
 | GPU solver  1gpu         | 4 hours         | ~ 4532000     | 122K       |
@@ -50,7 +50,7 @@ Implementation of FIFG allows to start from a baseline solution (4.4 M) and achi
 | 4-best                   | unknown         |   4477553     | 67K        |
 | 10-best                  | unknown         |   4426251     | 16K        |
 | BaseLine (FIFG)          | 0.1 second      | ~ 4410000     | 0 K        | 
-| -------------------------|--- ------------ | —------------ | ---------- |
+
 
 
    
