@@ -1,0 +1,8 @@
+size_of_threads_GPU  20000
+fixedstreets_current_MAXSIZE 50000
+dir_results resultsU
+initial_rounds 2
+initial_rounds_score_diff_MIN 16
+initial_rounds_count_stagnation_MAX 8
+clean_round_FIFG 50
+stop_criteria_per_1000_optimization_rounds 50
