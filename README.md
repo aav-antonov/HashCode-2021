@@ -33,7 +33,9 @@ The output is saved to the folder "results" (specified in config_solver file).
 ## Problem overview
 Given the description of a city plan and planned paths for all cars in that city,
 optimize the schedule of trac lights to minimize the total amount of time spent in
-trac, and help as many cars as possible reach their destination before a given deadline.
+trac, and help as many cars as possible reach their destination before a given deadline. See more details <a href="https://www.kaggle.com/competitions/hashcode-2021-oqr-extension/data" target="_blank"> here</a>.
+
+
 
 This problem is a combinatorial optimization problem. Top solutions at the competition all implement  hill climbing optimization techniques. For a given schedule change the order of traffic lights for two streets and, if improved , introduce this incremental change to the solution. 
 
@@ -59,17 +61,17 @@ Implementation of FIFG allows to start from a baseline solution (4.4 M) and achi
 | GPU solver  4gpu         | 48 hours        |   `4582000`     | 172K       | 
 | GPU solver  1gpu         | 30 hours        |   `4562000`     | 152K       | 
 | GPU solver  1gpu         | 6 hours         |   `4532000`     | 122K       |
-| 1-best                   | 150 hours       |   `4531386`     | 121K       |
-| 2-best                   | unknown         |   `4508721`     | 98K        |
-| 3-best                   | 90 hours        |   `4496301`     | 86K        |
-| 4-best                   | unknown         |   `4477553`     | 67K        |
-| 10-best                  | unknown         |   `4426251`     | 16K        |
+| Kaggle 1-best            | 150 hours       |   `4531386`     | 121K       |
+| Kaggle 2-best            | unknown         |   `4508721`     | 98K        |
+| Kaggle 3-best (my old)   | 90 hours        |   `4496301`     | 86K        |
+| Kaggle 4-best            | unknown         |   `4477553`     | 67K        |
+| Kaggle 10-best           | unknown         |   `4426251`     | 16K        |
 | BaseLine (FIFG)          | 0.1 second      |   `4410000`     | 0 K        | 
 
    
  
 ### Figure 1 
-Submission of the best solution , the score of the late submission is 4582374  which is by far exeeds the winning score 4531386.
+Submission of the best solution , the score of the late submission is `4582374`  which is by far exeeds the winning score `4531386`.
 
 ![This is an image](figures/leaderbord.png)
 
