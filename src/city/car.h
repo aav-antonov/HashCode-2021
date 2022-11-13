@@ -10,8 +10,6 @@
 
 
 
-
-
 //--------------- CAR --------------------------//
 // typedef struct CAR - state of the car at current time: 
 
