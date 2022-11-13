@@ -7,7 +7,7 @@ NVCC = nvcc  -x cu -arch=sm_60
 all: solver
 
 solver:     
-	$(NVCC)   solver.cpp -o solver  -lboost_system -lboost_filesystem 
+	$(NVCC)   main.cpp -o solver  -lboost_system -lboost_filesystem 
 
 
 
